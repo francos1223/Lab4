@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-image: url(https://images5.alphacoders.com/561/561868.jpg);
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size:400%;
+}
+a{
+    text-decoration: initial;
+    color: rgb(0, 0, 0);
+}
+li,ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar > li{
+    padding:10px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.navbar > li:hover{
+    background-color: rgb(121, 244, 248);
+}
+.custom-width{
+    max-width:500px;
+    margin: 0 auto;
+}

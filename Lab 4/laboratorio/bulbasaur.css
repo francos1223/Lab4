@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-image: url(https://c.wallhere.com/photos/c6/b2/1600x900_px_Bulbasaur-578616.jpg!d);
+    color: rgb(155, 243, 120);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size:400%;
+}
+a{
+    text-decoration: initial;
+    color: rgb(155, 243, 120);
+}
+li,ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar > li{
+    padding:10px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgb(155, 243, 120);
+    cursor: pointer;
+}
+.navbar > li:hover{
+    background-color: rgb(35, 78, 18);
+}
+.custom-width{
+    max-width:500px;
+    margin: 0 auto;
+}

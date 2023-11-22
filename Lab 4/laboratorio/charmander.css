@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/737/220/901/charmander-minimalism-orange-background-charmander-pokemon-wallpaper-preview.jpg);
+    color: rgb(246, 246, 246);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size:400%;
+}
+a{
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+}
+li,ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar > li{
+    padding:10px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+.navbar > li:hover{
+    background-color: rgb(128, 78, 3);
+}
+.custom-width{
+    max-width:500px;
+    margin: 0 auto;
+}

@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1e77e545-e4cd-48fb-8c5a-ff039192cad6/d9s2g29-2c475253-84a5-4d54-a383-bb4efd70d9c5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFlNzdlNTQ1LWU0Y2QtNDhmYi04YzVhLWZmMDM5MTkyY2FkNlwvZDlzMmcyOS0yYzQ3NTI1My04NGE1LTRkNTQtYTM4My1iYjRlZmQ3MGQ5YzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jtIzuYIn1zRv1z0akwECSuThFf1UblZzFa1I24I-Tfc);
+    color: rgb(255, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: rgba(red, green, blue, alpha);
+    font-style: inherit;
+}
+
+h1{
+    font-size:400%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+li,ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar > li{
+    padding:10px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.navbar > li:hover{
+    background-color: rgb(150, 187, 218);
+}
+.custom-width{
+    max-width:500px;
+    margin: 0 auto;
+}
